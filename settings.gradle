@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name='TraderNet'
+include ':ui_core'
+include ':quote'
+include ':service'

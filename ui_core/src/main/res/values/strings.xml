@@ -1,0 +1,9 @@
+<resources>
+    <string name="quote_name">%s | %s</string>
+    <string name="quote_change_value">%s ( %s )</string>
+    <string name="quote_percent_change_negative">%1$s%%</string>
+    <string name="quote_percent_change_positive">+%1$s%%</string>
+    <string name="quote_percent_change_neutral">%1$s%%</string>
+    <string name="error_message">Something went wrong, please retry later</string>
+    <string name="retry">retry</string>
+</resources>
