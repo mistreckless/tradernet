@@ -22,7 +22,6 @@ class QuoteViewModel(private val interactor: QuoteInteractor) : BaseViewModel<Qu
     }
 
     fun retry() {
-        coroutineContext
         launch {
             listen()
         }

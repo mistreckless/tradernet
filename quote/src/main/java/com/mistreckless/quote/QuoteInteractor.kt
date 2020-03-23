@@ -35,7 +35,6 @@ class DefaultQuoteInteractor(
         coroutineContext[Job]?.invokeOnCompletion {
             stateChannel.cancel()
         }
-        fetchFlow()
         return fetchFlow()
             .flatMapLatest { models ->
                 merge(flow { emit(models) }, subscribeFlow(models))
